@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Jogo : MonoBehaviour
 {
-    public BarraDeVida barra;
+    
     public GameObject gameOverUi;
     public GameObject gameWinUi;
 
@@ -41,7 +41,7 @@ public class Jogo : MonoBehaviour
 
     public void gameOver()
     {
-        gameOverUi.SetActive(true);
+        SceneManager.LoadScene("lvl_3");
 
     }
 

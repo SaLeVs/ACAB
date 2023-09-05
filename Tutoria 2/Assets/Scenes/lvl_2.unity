@@ -5835,7 +5835,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4ee4190d0584e342a6a56c5b77ec5d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  barra: {fileID: 0}
   gameOverUi: {fileID: 1482534835}
   gameWinUi: {fileID: 619297684}
   gameManager: {fileID: 806605333}
