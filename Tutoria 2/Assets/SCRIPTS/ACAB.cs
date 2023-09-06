@@ -197,13 +197,21 @@ public class ACAB : MonoBehaviour
         }
     }
 
-
+    IEnumerator Blink()
+    {
+        SpriteRenderer renderer = GetComponent<SpriteRenderer>();
+        renderer.color = new Color(1, 0, 0);
+        yield return new WaitForSeconds(0.5f);
+        renderer.color = new Color(1, 1, 1);
+    }
 
     private void Dano()
     {
         
         vida -= 1;
 
+        StartCoroutine(Blink());
+        
         if(vida == 4)
         {
             vidaOn4.enabled = true;
