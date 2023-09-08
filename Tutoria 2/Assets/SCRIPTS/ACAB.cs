@@ -164,7 +164,7 @@ public class ACAB : MonoBehaviour
             GameObject temp = Instantiate(balaProjetil);
             temp.transform.position = arma.position;
             temp.GetComponent<Rigidbody2D>().velocity = new Vector2(forcaDoTiro, 0);
-            Destroy(temp.gameObject, 0.5f);
+            Destroy(temp.gameObject, 0.8f);
             anim.SetBool("ATIRANDO", true);
         }
         

@@ -41,7 +41,7 @@ public class Jogo : MonoBehaviour
 
     public void gameOver()
     {
-        SceneManager.LoadScene("lvl_3");
+        gameOverUi.SetActive(true);
 
     }
 

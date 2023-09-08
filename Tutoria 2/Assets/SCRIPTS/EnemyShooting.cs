@@ -55,12 +55,12 @@ public class EnemySho : MonoBehaviour
         
 
         
-        if (distance < 3)
+        if (distance < 4)
         {
             timer += Time.deltaTime;
 
 
-            if (timer > 2)
+            if (timer > 1)
             {
                 timer = 0;
                 shoot();

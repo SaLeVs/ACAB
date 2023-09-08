@@ -13,9 +13,6 @@ public class EnemyBulletScript : MonoBehaviour
 
     private float timer;
 
-    public BarraDeVida barra; 
-    private float vida = 100;
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -28,8 +25,7 @@ public class EnemyBulletScript : MonoBehaviour
 
         transform.rotation = Quaternion.Euler(0, 0, rot);
 
-        vida = 100.00f;
-        barra.ColocarVidaMaxima(vida);
+        
 
     }
 
@@ -49,11 +45,8 @@ public class EnemyBulletScript : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player"))
         {
-
-            vida -= 50.0f;
-            barra.AlterarVida(vida);
             Destroy(gameObject);
-            Debug.Log("aqui");
+            
         }
     }
 }
