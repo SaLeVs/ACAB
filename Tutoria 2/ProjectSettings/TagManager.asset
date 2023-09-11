@@ -10,6 +10,10 @@ TagManager:
   - voat
   - colet
   - Obstacle
+  - Damage01
+  - Portal
+  - Chave
+  - Caixa
   layers:
   - Default
   - TransparentFX
@@ -17,7 +21,7 @@ TagManager:
   - Inimigo
   - Water
   - UI
-  - 
+  - Caixa
   - 
   - chao
   - 

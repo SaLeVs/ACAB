@@ -73,4 +73,5 @@ public class MovingObstacle : MonoBehaviour
         speedMultiplier = 1;
     }
 
+    
 }

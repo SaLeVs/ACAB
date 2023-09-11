@@ -76,8 +76,8 @@ public class Zumbi : MonoBehaviour
             {
                 rdb.gravityScale = 1f; 
                 anim.SetBool("morri", true);
-                Destroy(gameObject, 3f);
-                Debug.Log("amigo estou aqui");
+                Destroy(gameObject, 1f);
+               
             }
 
         }

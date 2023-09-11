@@ -11,8 +11,9 @@ using UnityEngine.UI;
 public class ACAB : MonoBehaviour
 {
     public Rigidbody2D rb;
-    public int acabSpeed;
+    public float acabSpeed;
     private float direcao;
+    public float jump;
 
     public Animator anim;
 
@@ -39,6 +40,7 @@ public class ACAB : MonoBehaviour
     private int vida;
     private int vidaMax = 5;
 
+    [SerializeField] Image Chave;
 
     [SerializeField] Image vidaOn;
     [SerializeField] Image vidaOff;
@@ -52,8 +54,8 @@ public class ACAB : MonoBehaviour
     [SerializeField] Image vidaOn4;
     [SerializeField] Image vidaOff4;
 
+    private bool apertado = false;
 
-  
 
     void Start()
     {
@@ -66,7 +68,7 @@ public class ACAB : MonoBehaviour
 
         vida = vidaMax;
 
-       
+        Chave.enabled = false;
 
     }
 
@@ -76,14 +78,25 @@ public class ACAB : MonoBehaviour
 
     void Update()
     {
-      /*  if (this.gameObject == null)
+        /*  if (this.gameObject == null)
+          {
+
+              gameManager.gameOver();
+          } */
+
+        if (Input.GetMouseButtonDown(1) && apertado == false)
         {
-            
-            gameManager.gameOver();
-        } */
+            StartCoroutine(Segurando());
+            apertado = true;
+        }
 
+        if (Input.GetMouseButtonDown(1) && apertado == true)
+        {
+            StopCoroutine(Segurando());
+            apertado = false;
+        }
 
-
+        
         anim.SetBool("ATIRANDO", false);
         tiro = Input.GetButtonDown("Fire1");
 
@@ -105,7 +118,7 @@ public class ACAB : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && inGround == true)
         {
-            rb.velocity = Vector2.up * 9;
+            rb.velocity = Vector2.up * jump;
             anim.SetBool("JUMPADO", true);
 
         }
@@ -113,7 +126,7 @@ public class ACAB : MonoBehaviour
         if (Input.GetButtonDown("Jump") && inGround == false && pulosExtras > 0)
         {
 
-            rb.velocity = Vector2.up * 9;
+            rb.velocity = Vector2.up * jump;
             pulosExtras--;
             anim.SetBool("JUMP2", true);
 
@@ -164,7 +177,7 @@ public class ACAB : MonoBehaviour
             GameObject temp = Instantiate(balaProjetil);
             temp.transform.position = arma.position;
             temp.GetComponent<Rigidbody2D>().velocity = new Vector2(forcaDoTiro, 0);
-            Destroy(temp.gameObject, 0.8f);
+            Destroy(temp.gameObject, 1f);
             anim.SetBool("ATIRANDO", true);
         }
         
@@ -187,6 +200,26 @@ public class ACAB : MonoBehaviour
             Destroy(collision.gameObject);
 
         }
+
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            Dano();
+
+        }
+
+        if (collision.gameObject.CompareTag("Damage01"))
+        {
+            Dano();
+        }
+
+        if (collision.gameObject.CompareTag("Chave"))
+        {
+
+            Destroy(collision.gameObject);
+            Chave.enabled = true;
+            Debug.Log("CHEGUEI");
+
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -195,6 +228,7 @@ public class ACAB : MonoBehaviour
         {
             Dano();
         }
+
     }
 
     IEnumerator Blink()
@@ -203,6 +237,12 @@ public class ACAB : MonoBehaviour
         renderer.color = new Color(1, 0, 0);
         yield return new WaitForSeconds(0.5f);
         renderer.color = new Color(1, 1, 1);
+    }
+    IEnumerator Segurando()
+    {
+        anim.SetBool("seg", true);
+        yield return new WaitForSeconds(0.5f);
+        anim.SetBool("seg", false);
     }
 
     private void Dano()

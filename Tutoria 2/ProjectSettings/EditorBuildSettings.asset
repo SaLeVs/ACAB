@@ -15,9 +15,15 @@ EditorBuildSettings:
     path: Assets/Scenes/lvl_1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/lvl_esg1.unity
+    guid: 1c31fd91edb16b74ca9dae812b25f106
+  - enabled: 1
+    path: Assets/Scenes/lvl_esg2.unity
+    guid: 9012c1c1855d9cb47a3b6a3b36bd5568
+  - enabled: 1
     path: Assets/Scenes/lvl_2.unity
     guid: 6ead638570564984694f61eb6f92b940
   - enabled: 1
-    path: Assets/Scenes/lvl_3.unity
+    path: Assets/Assets1/Scenes/lvl_3.unity
     guid: 3bb4e598a9f74c84aa7a4c00dc0fb531
   m_configObjects: {}
