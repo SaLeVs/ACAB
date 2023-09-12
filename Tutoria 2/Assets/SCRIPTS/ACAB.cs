@@ -10,6 +10,11 @@ using UnityEngine.UI;
 
 public class ACAB : MonoBehaviour
 {
+    public AudioSource somdopulo;
+    public AudioSource atirar;
+    public AudioSource andar;
+    public AudioSource coletar;
+
     public Rigidbody2D rb;
     public float acabSpeed;
     private float direcao;
@@ -106,12 +111,14 @@ public class ACAB : MonoBehaviour
         {
 
             anim.SetBool("WALKANDO", true);
+            andar.Play();
         }
 
         else
 
         {
             anim.SetBool("WALKANDO", false);
+            andar.Stop();
         }
 
         inGround = Physics2D.OverlapCircle(dttCao.position, 0.2f, isGround);
@@ -120,15 +127,16 @@ public class ACAB : MonoBehaviour
         {
             rb.velocity = Vector2.up * jump;
             anim.SetBool("JUMPADO", true);
-
+            somdopulo.Play();
         }
 
         if (Input.GetButtonDown("Jump") && inGround == false && pulosExtras > 0)
         {
-
+            
             rb.velocity = Vector2.up * jump;
             pulosExtras--;
             anim.SetBool("JUMP2", true);
+            somdopulo.Play();
 
         }
 
@@ -179,6 +187,7 @@ public class ACAB : MonoBehaviour
             temp.GetComponent<Rigidbody2D>().velocity = new Vector2(forcaDoTiro, 0);
             Destroy(temp.gameObject, 1f);
             anim.SetBool("ATIRANDO", true);
+            atirar.Play();
         }
         
             
