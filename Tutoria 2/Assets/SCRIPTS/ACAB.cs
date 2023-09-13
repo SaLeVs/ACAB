@@ -107,18 +107,28 @@ public class ACAB : MonoBehaviour
 
         Atirar();
 
+
+        if (Input.GetAxis("Horizontal") != 0 && inGround == true)
+        {
+            andar.volume = 1;
+        }
+        else
+        {
+            andar.volume = 0;
+        }
+
+
         if (Input.GetAxis("Horizontal") != 0)
         {
 
-            anim.SetBool("WALKANDO", true);
-            andar.Play();
+            anim.SetBool("WALKANDO", true);           
         }
 
         else
 
         {
             anim.SetBool("WALKANDO", false);
-            andar.Stop();
+            
         }
 
         inGround = Physics2D.OverlapCircle(dttCao.position, 0.2f, isGround);
@@ -185,8 +195,8 @@ public class ACAB : MonoBehaviour
             GameObject temp = Instantiate(balaProjetil);
             temp.transform.position = arma.position;
             temp.GetComponent<Rigidbody2D>().velocity = new Vector2(forcaDoTiro, 0);
-            Destroy(temp.gameObject, 1f);
             anim.SetBool("ATIRANDO", true);
+            Destroy(temp.gameObject, 1f);
             atirar.Play();
         }
         
@@ -233,9 +243,12 @@ public class ACAB : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+            
+
         if (collision.gameObject.CompareTag("Inimigo"))
         {
             Dano();
+            
         }
 
     }

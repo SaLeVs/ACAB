@@ -60,16 +60,16 @@ public class Jogo : MonoBehaviour
 
     public void mainMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        MyLoading1.LoadLevel("MainMenu");
     }
 
     public void level1()
     {
-        SceneManager.LoadScene("lvl_1");
+        MyLoading1.LoadLevel("lvl_1");
     }
     public void level2()
     {
-        SceneManager.LoadScene("lvl_2");
+        MyLoading1.LoadLevel("lvl_2");
     }
 
     public void quit()

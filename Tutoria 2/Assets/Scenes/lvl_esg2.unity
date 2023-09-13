@@ -1955,12 +1955,12 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: fd4b60ad278abaa43bdc25aa739dc11e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
-  m_Pitch: 1
+  m_Pitch: 3
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 169
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
