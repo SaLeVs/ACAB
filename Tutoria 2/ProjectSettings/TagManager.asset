@@ -14,6 +14,7 @@ TagManager:
   - Portal
   - Chave
   - Caixa
+  - Gelo
   layers:
   - Default
   - TransparentFX
