@@ -54,7 +54,7 @@ public class Jogo : MonoBehaviour
             gameManager.gameOver();
        }
 
-      Debug.Log(tempoDeGelo);
+     
 
     }
     private IEnumerator DiminuirValorCoroutine()
@@ -63,7 +63,6 @@ public class Jogo : MonoBehaviour
         {
             tempoDeGelo--;
             barra.AlterarVida(tempoDeGelo);
-            Debug.Log("Valor: " + tempoDeGelo);
             yield return new WaitForSeconds(1.0f);
         }
     }

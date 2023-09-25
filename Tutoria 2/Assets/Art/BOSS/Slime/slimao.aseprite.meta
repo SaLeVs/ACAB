@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: e400b9b316cb7c24da2a9b62d8a03042
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: slimao_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.009090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 128
+      height: 110
+    spriteID: b1d07af214879434caf054bce76fd8fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: slimao_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.009259259}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 595
+      width: 128
+      height: 108
+    spriteID: b986c1f0dcd42f848897c531f75a8d65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 595}
+  - name: slimao_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.009259259}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 711
+      width: 128
+      height: 108
+    spriteID: 43d7949c010db51459371ab75646bbb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 711}
+  - name: slimao_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.009090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 122
+      width: 128
+      height: 110
+    spriteID: 25e35545ba52ea0409f9e65c879a83c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 122}
+  - name: slimao_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.009090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 477
+      width: 126
+      height: 110
+    spriteID: fe10c92e07d68bc4da1e508f6d21b7f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 477}
+  - name: slimao_Frame_5
+    originalName: 
+    pivot: {x: 0.49600002, y: -0.009009009}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 358
+      width: 125
+      height: 111
+    spriteID: 2398dff34e90ee34bb9dbad202f15655
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 358}
+  - name: slimao_Frame_6
+    originalName: 
+    pivot: {x: 0.4754098, y: -0.018691588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 231
+      width: 122
+      height: 107
+    spriteID: 39dfc4f5e0296b24599affbf54f44f78
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 231}
+  - name: slimao_Frame_7
+    originalName: 
+    pivot: {x: 0.47500002, y: -0.018691588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 232
+      width: 120
+      height: 107
+    spriteID: f4a28d0f90854604fa1f9cb1b6a3db9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 232}
+  - name: slimao_Frame_8
+    originalName: 
+    pivot: {x: 0.4754098, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 4
+      width: 122
+      height: 106
+    spriteID: 559d12328b97a1e40bb1345d75cf2307
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 4}
+  - name: slimao_Frame_9
+    originalName: 
+    pivot: {x: 0.4754098, y: -0.018691588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 346
+      width: 122
+      height: 107
+    spriteID: 41d14d69d9695684cb29bf112f367894
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 346}
+  - name: slimao_Frame_10
+    originalName: 
+    pivot: {x: 0.4796748, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 691
+      width: 123
+      height: 106
+    spriteID: 5193f4092aa0c904ea3c3ac93f22c831
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 691}
+  - name: slimao_Frame_11
+    originalName: 
+    pivot: {x: 0.52459013, y: -0.018691588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 461
+      width: 122
+      height: 107
+    spriteID: 6513616526128fe4b9386976bd42eca9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 461}
+  - name: slimao_Frame_12
+    originalName: 
+    pivot: {x: 0.52500004, y: -0.018691588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 347
+      width: 120
+      height: 107
+    spriteID: d0d77134612e32d409e4f7e17b35427c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 347}
+  - name: slimao_Frame_13
+    originalName: 
+    pivot: {x: 0.52459013, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 118
+      width: 122
+      height: 106
+    spriteID: 4afdb7dc88f73d440a89edd01b799005
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 118}
+  - name: slimao_Frame_14
+    originalName: 
+    pivot: {x: 0.52459013, y: -0.018691588}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 576
+      width: 122
+      height: 107
+    spriteID: e69bc76ebf378c345a06f547a104169a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 576}
+  - name: slimao_Frame_15
+    originalName: 
+    pivot: {x: 0.5203252, y: -0.018867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 805
+      width: 123
+      height: 106
+    spriteID: 0f8266329adb8fa48a86d091c8263eec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 805}
+  - name: slimao_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.009090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 240
+      width: 128
+      height: 110
+    spriteID: 6b9a881a8d3099f48a74870a89a3da8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 240}
+  - name: slimao_Frame_17
+    originalName: 
+    pivot: {x: 0.49600002, y: -0.009259259}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 827
+      width: 125
+      height: 108
+    spriteID: 6edcde2013f9679429bea1dd569a13be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 827}
+  - name: slimao_Frame_18
+    originalName: 
+    pivot: {x: 0.49600002, y: -0.009433962}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 4
+      width: 125
+      height: 106
+    spriteID: d13fc6c9061a32343a830a85be0c4da3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 4}
+  - name: slimao_Frame_19
+    originalName: 
+    pivot: {x: 0.49600002, y: -0.00952381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 118
+      width: 125
+      height: 105
+    spriteID: 48eac0b92f79bac40a4f6a923cbac655
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 118}
+  - name: slimao_Frame_20
+    originalName: 
+    pivot: {x: 0.49600002, y: -0.01010101}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 919
+      width: 125
+      height: 99
+    spriteID: 6ee1798dec5ec014d9dbe66955ac65fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 919}
+  - name: slimao_Frame_21
+    originalName: 
+    pivot: {x: 0.49600002, y: -0.011363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 462
+      width: 125
+      height: 88
+    spriteID: be74a22854b722942b42d9347e28af92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 462}
+  - name: slimao_Frame_22
+    originalName: 
+    pivot: {x: 0.50427353, y: -0.021276595}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 943
+      width: 117
+      height: 47
+    spriteID: 402498d99e3da7849b4b55a4b3144927
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 943}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1067363855
+    name: slimao
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: slimao_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 1
+        width: 128
+        height: 110
+      spriteId: b1d07af214879434caf054bce76fd8fd
+    - name: slimao_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 1
+        width: 128
+        height: 108
+      spriteId: b986c1f0dcd42f848897c531f75a8d65
+    - name: slimao_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 1
+        width: 128
+        height: 108
+      spriteId: 43d7949c010db51459371ab75646bbb3
+    - name: slimao_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 1
+        width: 128
+        height: 110
+      spriteId: 25e35545ba52ea0409f9e65c879a83c8
+    - name: slimao_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 1
+        y: 1
+        width: 126
+        height: 110
+      spriteId: fe10c92e07d68bc4da1e508f6d21b7f1
+    - name: slimao_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 2
+        y: 1
+        width: 125
+        height: 111
+      spriteId: 2398dff34e90ee34bb9dbad202f15655
+    - name: slimao_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 6
+        y: 2
+        width: 122
+        height: 107
+      spriteId: 39dfc4f5e0296b24599affbf54f44f78
+    - name: slimao_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 7
+        y: 2
+        width: 120
+        height: 107
+      spriteId: f4a28d0f90854604fa1f9cb1b6a3db9a
+    - name: slimao_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 6
+        y: 2
+        width: 122
+        height: 106
+      spriteId: 559d12328b97a1e40bb1345d75cf2307
+    - name: slimao_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 6
+        y: 2
+        width: 122
+        height: 107
+      spriteId: 41d14d69d9695684cb29bf112f367894
+    - name: slimao_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 5
+        y: 2
+        width: 123
+        height: 106
+      spriteId: 5193f4092aa0c904ea3c3ac93f22c831
+    - name: slimao_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 2
+        width: 122
+        height: 107
+      spriteId: 6513616526128fe4b9386976bd42eca9
+    - name: slimao_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 1
+        y: 2
+        width: 120
+        height: 107
+      spriteId: d0d77134612e32d409e4f7e17b35427c
+    - name: slimao_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 2
+        width: 122
+        height: 106
+      spriteId: 4afdb7dc88f73d440a89edd01b799005
+    - name: slimao_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 2
+        width: 122
+        height: 107
+      spriteId: e69bc76ebf378c345a06f547a104169a
+    - name: slimao_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 2
+        width: 123
+        height: 106
+      spriteId: 0f8266329adb8fa48a86d091c8263eec
+    - name: slimao_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 1
+        width: 128
+        height: 110
+      spriteId: 6b9a881a8d3099f48a74870a89a3da8f
+    - name: slimao_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 2
+        y: 1
+        width: 125
+        height: 108
+      spriteId: 6edcde2013f9679429bea1dd569a13be
+    - name: slimao_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 2
+        y: 1
+        width: 125
+        height: 106
+      spriteId: d13fc6c9061a32343a830a85be0c4da3
+    - name: slimao_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 2
+        y: 1
+        width: 125
+        height: 105
+      spriteId: 48eac0b92f79bac40a4f6a923cbac655
+    - name: slimao_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 2
+        y: 1
+        width: 125
+        height: 99
+      spriteId: 6ee1798dec5ec014d9dbe66955ac65fa
+    - name: slimao_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 2
+        y: 1
+        width: 125
+        height: 88
+      spriteId: be74a22854b722942b42d9347e28af92
+    - name: slimao_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 5
+        y: 1
+        width: 117
+        height: 47
+      spriteId: 402498d99e3da7849b4b55a4b3144927
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}
